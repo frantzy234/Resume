@@ -1,13 +1,15 @@
 
 body{
-
+  background-color: white
 }
-
 .smcircle{
-  width:100%;
+  width:200px;
+  height: 190px;
+  border-radius: 50%;
+  border: solid  rgb(37, 133, 184);
 }
 .introContainer {
-  border: solid black;
+  border: solid  rgb(37, 133, 184);
   display: flex;
   /* height:20vh; */
   justify-content: space-between;
@@ -15,25 +17,18 @@ body{
   
 }
 
-.circle {
-  border: solid grey;
-  height: 120px;
-  width: 120px;
-  border-radius: 90%;
-  margin: 15px;
-}
 .intro {
-  border: solid green;
+  border: solid  rgb(37, 133, 184);
   width: 60%;
   margin: 1em;
-  /* background-image:url('https://gifdb.com/images/high/flowing-water-background-3or1h2fe6iuieki4.gif'); */
   background-size:cover;
   text-align: center;
-  background-color: peru;
+  padding-left: 55px;
+  background-color: rgb(255, 255, 255);
 }
 
 .infoContainer {
-  border: solid black;
+  border: solid  rgb(37, 133, 184);
   margin: 1em;
   /* height: 80vh; */
   background-size:contain;
@@ -41,12 +36,12 @@ body{
 }
 
 .dropContainer {
-  border: solid black;
+  border: solid rgb(37, 127, 176);
   padding:1em;
   margin: 1em;
-  border-width: 0.2px;
+  
   width: 30%;
-  background-color: peru;
+  background-color: rgb(255, 255, 255);
 }
 .displayContainer {
   /* border: solid ; */
@@ -63,11 +58,14 @@ body{
   font-size:22px;
 }
 .symbolContainer {
-  border: solid black;
-  border-width:1px;
-border-radius:10px;
-  /* height:90px; */
+  border: solid  rgb(37, 133, 184);
+  border-width:2px;
+border-radius:3px;
+text-align: center;
+
 }
+
+
 .symParent {
   /* border: solid green; */
   border-width: 12px;
@@ -77,7 +75,7 @@ border-radius:10px;
   margin: 1em;
 }
 .icon {
-  border: solid grey;
+  border: solid  rgb(37, 133, 184);
   width: 55px;
   height: 20px;
   border-radius: 70%;
@@ -88,15 +86,15 @@ border-radius:10px;
   text-align: center;
 }
 .sectionContainer {
-  border: solid black;
+  border: solid  rgb(37, 133, 184);
   margin: 1em;
-  background-color: #333C3F;
-  color: white;
+  background-color: white;
+  color: black;
   display:flex;
   flex-wrap:wrap;
 }
 .toolbar {
-  border: solid white;
+  border: solid  rgb(37, 133, 184);
   text-align: center;
   background-color: navy;
 }
@@ -104,25 +102,79 @@ border-radius:10px;
   text-align: center;
   margin: 1em;
 }
-.eduPic {
-  border-radius: 50%;
-  margin-left: 20%;
-  height: 60px;
-  justify-content: center;
-}
+
 .eduContainer {
-  border: solid white;
+  border: solid  rgb(37, 133, 184);
   margin: 1em;
 }
 .eduContainer:hover {
-  border: solid lime;
+  border: solid rgb(12, 34, 12);
   font-size:23px;
   transition:3s;
   margin: 1em;
 }
 
-h2{
+h2 {
   text-align: center;
   font-size: 80%;
 
+}
+
+.fanduelLogo{
+  padding-top: 1em;
+  width: 39px;
+  height: 39px
+
+}
+
+
+.example{
+  border: solid  rgb(37, 133, 184);
+  height: 43vh
+}
+
+
+h3{
+  text-align: center;
+  font-family: cursive;
+}
+
+
+li{text-align: left;}
+
+h4{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+button{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  display: grid;
+
+  
+}
+
+p{
+  text-align: center;
+  font-size: 23px;
+  font-style: italic;
+
+
+}
+
+
+.screen{
+  border:solid  rgb(37, 133, 184);
+  height:5vh;
+  border-radius:22px;
+  font-family:'Courier New', Courier, monospace;
+  background-color:#40707f;
+  padding:2em;
+  color:rgb(255, 255, 255);
+  font-size:20px;
 }
